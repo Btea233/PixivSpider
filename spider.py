@@ -11,8 +11,8 @@ browser.get(purl)
 login1 = browser.find_element_by_class_name("signup-form__submit--login")
 login1.click()
 
-user = '2406634977@qq.com'
-passwd = 'lxlwsadlxl'
+user = 'your user'
+passwd = 'your password'
 
 user_class = browser.find_element_by_class_name("degQSE")
 passwd_class = browser.find_element_by_class_name("hfoSmp")
